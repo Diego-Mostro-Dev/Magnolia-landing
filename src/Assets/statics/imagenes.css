@@ -1,0 +1,76 @@
+.contenedor-redes {
+    fill: #f1f1f1;
+    stroke-width: 0px;
+}
+
+.cruz-trabajo .cls-1 {
+    fill: #1a1a1a;
+}
+
+.cruz-trabajo .cls-1,
+.cls-2 {
+    stroke-width: 0px;
+}
+
+.cruz-trabajo .cls-2 {
+    fill: #f1f1f1;
+}
+
+.flecha-contacto .cls-1 {
+    fill: #b0a4d6;
+    stroke-width: 0px;
+
+}
+
+.lineas-trabajo .cls-1 {
+    fill: none;
+    stroke: #1a1a1a;
+    stroke-miterlimit: 10;
+    stroke-width: 1.61px;
+}
+
+.logo-cls-1 {
+    fill: #fcbf02;
+    stroke-width: 0px;
+}
+
+.parentesis-productora .cls-1 {
+    stroke-width: 0px;
+}
+
+.parentesis-somos .cls-1 {
+    fill: #fcbf02;
+    stroke-width: 0px;
+}
+
+.seccion-actores .cls-1 {
+    fill: none;
+    stroke: #f2f2f2;
+    stroke-miterlimit: 10;
+    stroke-width: 1.63px;
+}
+
+.Seccion-Contacto .cls-1 {
+    fill: #1a1a1a;
+    stroke-width: 0px;
+}
+
+.Seccion-Productora .cls-1 {
+    fill: #b0a4d6;
+    stroke-width: 0px;
+}
+
+.Seccion-Redes .cls-1 {
+    fill: #2e3192;
+    stroke-width: 0px;
+}
+
+.seccion-somos .cls-1 {
+    fill: #f2f2f2;
+    stroke-width: 0px;
+}
+
+.seccion-trabajo .cls-1 {
+    fill: #f2f2f2;
+    stroke-width: 0px;
+}
