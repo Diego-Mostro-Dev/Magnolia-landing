@@ -1,0 +1,29 @@
+.magnolia {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    width: 100%;
+    height: 75%;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+    padding: 10px;
+
+}
+
+.magnolia h1 {
+    text-align: center;
+    font-size: 60%;
+    height: auto;
+}
+
+.parentesis-somos {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
