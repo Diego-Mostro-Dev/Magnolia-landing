@@ -1,0 +1,10 @@
+.actores-actrices {
+    display: flex;
+    justify-content: left;
+    height: 100%;
+    text-align: center;
+    color: #fcbf02;
+    font-size: clamp(0.8rem, 2vw, 1.5rem);
+    align-items: flex-start;
+    margin: 10px 0 0 10px;
+}

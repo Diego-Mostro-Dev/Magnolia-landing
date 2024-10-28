@@ -1,0 +1,36 @@
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../statics/Untitled-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.redes button {
+    background-color: #f1f1f1;
+    color: #000000;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    border: 1px solid #f1f1f1;
+    width: fit-content;
+    border-radius: 20px;
+    height: fit-content;
+    padding: 5px 15px;
+}
+
+@media screen and (width >425px) {
+    .redes {
+        border-radius: 20px;
+    }
+}
+
+@media screen and (width >1024px) {
+    .redes {
+        border-radius: 25px;
+    }
+}

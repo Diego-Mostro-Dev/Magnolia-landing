@@ -1,0 +1,25 @@
+.contacto {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    /* Para poder posicionar la flecha */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.contacto h1 {
+    text-align: center;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: #b0a4d6;
+}
+
+.contacto img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: clamp(7px, 10vw, 10px);
+}

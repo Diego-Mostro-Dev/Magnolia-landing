@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Assets/css/home.css';
-import { Logo } from '../Assets/statics/Imagenes.jsx';
+import Logo from '../Assets/statics/Logo.svg';
 import SomosMagnolia from '../Componentes/SomosMagnolia.jsx';
 import Trabajo from '../Componentes/Trabajo.jsx';
 import Redes from '../Componentes/Redes.jsx';
@@ -16,10 +16,10 @@ export default function Home() {
         <>
             <article className="home-grid">
                 <section className="navbar">
-                    <div className="logo"><Logo /></div>
+                    <div ><img className="logo" src={Logo} alt="Logo" /></div>
                     <section className="botones-nav">
-                        <button className="lorem1">Lorem</button>
-                        <button className="lorem2">Lorem</button>
+                        <button className="lorem1">Lorem ipsum</button>
+                        <button className="lorem2">Lorem ipsum</button>
                     </section>
                 </section>
 
