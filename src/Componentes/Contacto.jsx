@@ -7,7 +7,7 @@ export default function Contacto() {
         <>
             <div className="contacto">
                 <h1>Contacto</h1>
-                <img src={FlechaContacto} alt="flecha de contacto" />
+                <img height={50} width={50} src={FlechaContacto} alt="flecha de contacto" />
             </div>
         </>
     )

@@ -8,7 +8,7 @@ export default function SomosMagnolia() {
         <>
             <div className="magnolia">
                 <h1>Somos Magnolia</h1>
-                <div className="parentesis-somos"><img src={ParentesisSomos} alt="" className="parentesis-somos" /></div>
+                <div className="parentesis-somos"><img height={50} width={50} src={ParentesisSomos} alt="" className="parentesis-somos" /></div>
             </div>
         </>
     )

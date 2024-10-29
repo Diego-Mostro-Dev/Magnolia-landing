@@ -6,7 +6,7 @@ export default function Productora() {
     return (
         <>
             <div className="productora" >
-                <div className="parentesis-productora"><img src={ParentesisProductora} alt="" /></div>
+                <div className="parentesis-productora"><img height={50} width={50} src={ParentesisProductora} alt="" /></div>
                 <h1>Productora</h1>
             </div>
         </>

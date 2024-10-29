@@ -16,7 +16,7 @@ export default function Home() {
         <>
             <article className="home-grid">
                 <section className="navbar">
-                    <div ><img className="logo" src={Logo} alt="Logo" /></div>
+                    <div ><img className="logo" height={50} width={50} src={Logo} alt="Logo" /></div>
                     <section className="botones-nav">
                         <button className="lorem1">Lorem ipsum</button>
                         <button className="lorem2">Lorem ipsum</button>
