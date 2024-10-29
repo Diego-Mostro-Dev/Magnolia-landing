@@ -21,7 +21,7 @@
 
 .productora h1 {
     position: absolute;
-    font-size: clamp(0.6rem, 2vw, 1.5rem);
+    font-size: clamp(0.8rem, 2vw, 1.5rem);
     color: rgb(0, 0, 0);
     text-align: center;
     z-index: 1;
