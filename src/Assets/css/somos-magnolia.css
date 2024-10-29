@@ -4,26 +4,50 @@
     background-color: aliceblue;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
     justify-content: space-around;
     align-items: center;
-    align-content: center;
-    padding: 5px;
+    padding: 10px;
+    gap: 10px;
 
 }
 
 .magnolia h1 {
     text-align: center;
-    font-size: clamp(0.9rem, 2vw, 1.5rem);
+    font-size: clamp(0.9rem, 3vw, 1.5rem);
+    width: 100%;
     height: auto;
 }
 
 .parentesis-somos {
-    width: clamp(50px, 40%, 200px);
+    width: clamp(40px, 50%, 200px);
     height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     max-height: 80%;
+}
+
+@media screen and (width >425px) {
+    .magnolia {
+        display: flex;
+        flex-direction: row;
+        background-color: aliceblue;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+
+    }
+
+    .magnolia h1 {
+        text-align: center;
+        font-size: clamp(0.9rem, 2.6vw, 2rem);
+        width: 100%;
+        height: auto;
+    }
 }

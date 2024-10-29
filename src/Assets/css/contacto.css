@@ -2,24 +2,45 @@
     background-color: #1a1a1a;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
-    position: relative;
-    /* Para poder posicionar la flecha */
-    display: flex;
-    justify-content: center;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* Columna para el texto y otra para la imagen */
+    grid-template-rows: auto;
+    gap: 10px;
     align-items: center;
     color: white;
+    padding: 10px;
+    grid-template-areas: "contacto-h1 contacto-h1 imagen";
+    position: relative;
+    /* Para asegurar que la imagen esté posicionada relativa al contenedor */
 }
 
 .contacto h1 {
+    grid-area: contacto-h1;
     text-align: center;
-    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-size: clamp(1rem, 2.5vw, 6rem);
     color: #b0a4d6;
 }
 
 .contacto img {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: clamp(7px, 10vw, 10px);
+    grid-area: imagen;
+    align-self: start;
+    /* Alinea la imagen en la parte superior del contenedor */
+    justify-self: end;
+    /* Alinea la imagen en la parte derecha del contenedor */
+    width: clamp(10px, 1.5vw, 50px);
+}
+
+@media (max-width: 425px) {
+    .contacto {
+        position: relative;
+        /* Para que la imagen esté posicionada relativa al contenedor */
+    }
+
+    .contacto img {
+        width: clamp(10px, 1vw, 20px);
+        position: absolute;
+        bottom: 10px;
+    }
 }
