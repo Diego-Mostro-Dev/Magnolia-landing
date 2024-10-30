@@ -22,7 +22,7 @@
     width: 100%;
     justify-content: space-around;
     align-items: flex-end;
-    background-image: url(../statics/fondo-magnolia.png);
+    background-image: url(../statics/DSC03669.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -99,6 +99,25 @@
         "redes  redes redes redes redes redes";
 }
 
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: grid;
+}
+
+
+.secciones-home-modal {
+    display: grid;
+    margin: 0 auto;
+    height: 80%;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
 /* Estilos para cada sección */
 .somos-magnolia-home {
     grid-area: somos-magnolia;
@@ -111,6 +130,8 @@
     justify-content: center;
     border-radius: 20px;
 }
+
+
 
 
 .productora-home {
@@ -156,6 +177,7 @@
     .home-grid {
         align-items: center;
         grid-template-rows: 0.4fr 2fr;
+        background-image: url(../statics/DSC03758.jpg);
         padding-bottom: 20px;
         padding-top: 2rem;
         gap: 10px;
@@ -173,6 +195,17 @@
             "productora trabajo trabajo actores-actrices"
             "redes  redes redes redes";
     }
+
+    .secciones-home-modal {
+
+        width: 65vw;
+
+    }
+
+    .hidden {
+        display: none;
+    }
+
 
     .somos-magnolia-home {
         grid-area: somos-magnolia;
