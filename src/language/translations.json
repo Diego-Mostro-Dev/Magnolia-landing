@@ -1,0 +1,56 @@
+{
+    "es": {
+        "SomosMagnolia": {
+            "title": "Somos Magnolia",
+            "description": "Una página de inicio basada en React para mostrar una aplicación de landing page."
+        },
+        "contacto": {
+            "title": "Contacto",
+            "description": "Formulario de contacto"
+        },
+        "trabajo": {
+            "title": "Trabajos",
+            "description": "Una página de inicio basada en React para mostrar una aplicación de landing page."
+        },
+        "productora": {
+            "title": "productora",
+            "description": "Para productoras"
+        }
+    },
+    "en": {
+        "SomosMagnolia": {
+            "title": "We Are Magnolia",
+            "description": "A React-based landing page to showcase an application."
+        },
+        "contacto": {
+            "title": "Contacto",
+            "description": "Formulario de contacto"
+        },
+        "trabajo": {
+            "title": "Trabajos",
+            "description": "Una página de inicio basada en React para mostrar una aplicación de landing page."
+        },
+        "productora": {
+            "title": "productora",
+            "description": "Para productoras"
+        }
+    },
+    "pt": {
+        "SomosMagnolia": {
+            "title": "Magnolinia",
+            "description": "Uma página inicial baseada em React para exibir uma aplicação de landing page."
+        },
+        "contacto": {
+            "title": "Contacto",
+            "description": "Formulario de contacto"
+        },
+        "trabajo": {
+            "title": "Trabajos",
+            "description": "Una página de inicio basada en React para mostrar una aplicación de landing page."
+        },
+        "productora": {
+            "title": "productora",
+            "description": "Para productoras"
+        }
+    }
+}

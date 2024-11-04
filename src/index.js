@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import Home from './Containers/Home';
 import reportWebVitals from './reportWebVitals';
 import { ModalProvider } from '../src/ModalContext';
+import { LanguageProvider } from '../src/LanguageContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ModalProvider>
-      <Home />
+      <LanguageProvider>
+        <Home />
+      </LanguageProvider>
     </ModalProvider>
   </React.StrictMode>
 );
