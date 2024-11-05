@@ -52,10 +52,12 @@ export default function Home() {
                             <button className="lorem1">Lorem ipsum</button>
                             <button className="lorem2">Lorem ipsum</button>
                         </section>
-                        <section className="botones-language">
-                            <button onClick={() => cambiarIdioma('es')}><h1>ES</h1></button>
-                            <button onClick={() => cambiarIdioma('en')}><h1>EN</h1></button>
-                            <button onClick={() => cambiarIdioma('pt')}><h1>PT</h1></button>
+                        <section title="Idioma" className="botones-language">
+                            <select id="language-select" onChange={(e) => cambiarIdioma(e.target.value)}>
+                                <option value="es">ES</option>
+                                <option value="en">EN</option>
+                                <option value="pt">PT</option>
+                            </select>
                         </section>
                     </div>
                 </section>

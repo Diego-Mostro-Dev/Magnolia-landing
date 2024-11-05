@@ -1,13 +1,17 @@
 import React from 'react'
 import '../Assets/css/productora.css'
 import ParentesisProductora from '../Assets/statics/Parantésis productora.svg';
+import { useLanguageContext } from '../LanguageContext';
 
 export default function Productora() {
+    const { getTraduccion } = useLanguageContext();
+    const { title } = getTraduccion('productora');
+    const { description } = getTraduccion('productora');
     return (
         <>
-            <div className="productora" >
+            <div title={description} className="productora" >
                 <div className="parentesis-productora"><img height={50} width={50} src={ParentesisProductora} alt="" /></div>
-                <h1>Productora</h1>
+                <h1>{title}</h1>
             </div>
         </>
     )
