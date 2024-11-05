@@ -14,9 +14,6 @@ import RedesModal from '../Componentes/RedesModal.jsx';
 import ProductoraModal from '../Componentes/ProductoraModal.jsx';
 import ContactoModal from '../Componentes/ContactoModal.jsx';
 import ActoresActricesModal from '../Componentes/ActoresActricesModal.jsx';
-import Argentina from '../Assets/statics/Argentina.svg';
-import USA from '../Assets/statics/USA.svg';
-import Brasil from '../Assets/statics/Brasil.svg';
 import { useModalContext } from '../ModalContext.js';
 import { useLanguageContext } from '../LanguageContext.js'; // Importar el contexto de idioma
 
@@ -50,15 +47,17 @@ export default function Home() {
                     <div>
                         <img className="logo" height={50} width={50} src={Logo} alt="Logo" />
                     </div>
-                    <section className="botones-language">
-                        <button onClick={() => cambiarIdioma('es')}><img height={20} width={20} src={Argentina} alt="Argentina" /></button>
-                        <button onClick={() => cambiarIdioma('en')}><img height={20} width={20} src={USA} alt="USA" /></button>
-                        <button onClick={() => cambiarIdioma('pt')}><img height={20} width={20} src={Brasil} alt="Brasil" /></button>
-                    </section>
-                    <section className="botones-nav">
-                        <button className="lorem1">Lorem ipsum</button>
-                        <button className="lorem2">Lorem ipsum</button>
-                    </section>
+                    <div className="wrapper-idioma-botones">
+                        <section className="botones-nav">
+                            <button className="lorem1">Lorem ipsum</button>
+                            <button className="lorem2">Lorem ipsum</button>
+                        </section>
+                        <section className="botones-language">
+                            <button onClick={() => cambiarIdioma('es')}><h1>ES</h1></button>
+                            <button onClick={() => cambiarIdioma('en')}><h1>EN</h1></button>
+                            <button onClick={() => cambiarIdioma('pt')}><h1>PT</h1></button>
+                        </section>
+                    </div>
                 </section>
 
                 {/* Contenido principal */}
