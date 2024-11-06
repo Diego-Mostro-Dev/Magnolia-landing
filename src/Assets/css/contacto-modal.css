@@ -1,7 +1,7 @@
 .contacto-Modal {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     /* Centra verticalmente el contenido */
     align-items: center;
     /* Centra horizontalmente el contenido */
@@ -44,4 +44,40 @@
     /* Distancia desde el borde superior */
     right: 10px;
     /* Distancia desde el borde derecho */
+}
+
+.wrapper-contacto-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centra verticalmente el contenido */
+    align-items: center;
+    /* Centra horizontalmente el contenido */
+    width: 100%;
+    height: fit-content;
+    gap: 10px;
+}
+
+.wrapper-contacto-redes h1 {
+    text-align: center;
+    font-size: clamp(0.9rem, 2vw, 1.5rem);
+    width: 100%;
+    height: auto;
+}
+
+.contacto-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Centra verticalmente el contenido */
+    align-items: center;
+    /* Centra horizontalmente el contenido */
+    width: 100%;
+    height: fit-content;
+    gap: 10px;
+}
+
+.contacto-redes img {
+    width: 20px;
+    height: auto;
 }

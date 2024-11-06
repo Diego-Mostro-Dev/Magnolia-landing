@@ -13,6 +13,7 @@
             "description": "Formulario de contacto",
             "text": "¿Qué necesitás saber? Llená el formulario y nos pondremos en contacto con vos a la brevedad.",
             "buttonText": "Enviar",
+            "textRedes": "También podés encontrarnos acá:",
             "form": {
                 "name": "Nombre",
                 "email": "Correo",
@@ -63,6 +64,7 @@
             "description": "Contact form",
             "text": "What do you need to know? Fill out the form and we will contact you as soon as possible.",
             "buttonText": "Send",
+            "textRedes": "You can also find us here:",
             "form": {
                 "name": "Name",
                 "email": "Email",
@@ -113,6 +115,7 @@
             "description": "Formulário de contato",
             "text": "O que você precisa saber? Preencha o formulário e entraremos em contato o mais breve possível.",
             "buttonText": "Enviar",
+            "textRedes": "Você também pode nos encontrar aqui:",
             "form": {
                 "name": "Nome",
                 "email": "E-mail",

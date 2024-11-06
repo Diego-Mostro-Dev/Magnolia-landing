@@ -1,7 +1,7 @@
 .trabajo-Modal {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     /* Centra verticalmente el contenido */
     align-items: center;
     /* Centra horizontalmente el contenido */
@@ -44,4 +44,27 @@
     /* Distancia desde el borde superior */
     right: 10px;
     /* Distancia desde el borde derecho */
+}
+
+.trabajo-Modal section {
+    display: flex;
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+}
+
+.trabajo-Modal section img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.trabajo-Modal section img:hover {
+    cursor: crosshair;
+    max-height: 40vh;
+    width: 20vh;
+    opacity: 1;
+    filter: contrast(120%);
 }
