@@ -19,11 +19,17 @@
     height: auto;
 }
 
+.cruz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
 .cruz img {
     width: clamp(20px, 40%, 80px);
     height: auto;
     object-fit: cover;
-    padding: 1px;
 }
 
 .lineas {
@@ -39,7 +45,15 @@
     padding-left: 10px;
 }
 
-@media screen and (width >425px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .trabajo h1 {
+        font-size: clamp(1.2rem, 1.3rem, 4rem);
+        text-align: right;
+    }
+}
+
+
+@media screen and (width >1024px) {
     .trabajo {
         grid-template-columns: 20% 1fr 2fr;
         justify-items: center;

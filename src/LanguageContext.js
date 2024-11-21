@@ -1,6 +1,6 @@
 // LanguageContext.js
 import React, { createContext, useReducer, useContext } from 'react';
-import translations from './language/translations.json'; // Importa el JSON con las traducciones
+import translations from './language/translations.json';
 
 // Estado inicial
 const initialState = {

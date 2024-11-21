@@ -9,7 +9,6 @@
     align-items: center;
     background-color: #b0a4d6;
     border-radius: 15px;
-    padding: 3px;
 }
 
 .parentesis-productora img {
@@ -22,15 +21,19 @@
 
 .productora h1 {
     position: absolute;
-    font-size: clamp(0.8rem, 2vw, 1.5rem);
+    font-size: medium;
     color: rgb(0, 0, 0);
     text-align: center;
     z-index: 1;
-    margin: 10px;
+    padding: 10px 10px 15px 10px;
 }
 
-@media screen and (width >425px) {
+@media screen and (width >768px) {
     .productora {
         padding: 10px;
+    }
+
+    .productora h1 {
+        font-size: clamp(1rem, 2vw, 1.5rem);
     }
 }
