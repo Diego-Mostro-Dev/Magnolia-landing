@@ -4,7 +4,7 @@
     height: 100%;
     text-align: center;
     color: #fcbf02;
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-size: clamp(1rem, 2.5vw, 2.7rem);
     align-items: flex-start;
     margin: 10px 0 0 10px;
 }
