@@ -14,8 +14,7 @@
 .parentesis-productora img {
     width: 100%;
     height: 100%;
-    padding: 3px;
-    padding-top: 5px;
+    padding: 4px;
     object-fit: cover;
 }
 
@@ -28,12 +27,20 @@
     padding: 10px 10px 15px 10px;
 }
 
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .parentesis-productora img {
+        padding: 12px;
+    }
+
+}
+
+
 @media screen and (width >768px) {
     .productora {
         padding: 10px;
     }
 
     .productora h1 {
-        font-size: clamp(1rem, 2vw, 1.5rem);
+        font-size: clamp(1rem, 2.05vw, 1.5rem);
     }
 }

@@ -17,8 +17,9 @@
 
 .contacto h1 {
     text-align: center;
-    font-size: clamp(1rem, 2.5vw, 6rem);
+    font-size: clamp(1rem, 2.8vw, 6rem);
     color: #b0a4d6;
+    padding-right: 5px;
 }
 
 .contacto img {

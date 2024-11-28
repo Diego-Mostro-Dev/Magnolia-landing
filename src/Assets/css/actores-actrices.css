@@ -2,7 +2,7 @@
     display: flex;
     justify-content: left;
     height: 100%;
-    text-align: center;
+    text-align: left;
     color: #fcbf02;
     font-size: clamp(1rem, 2.5vw, 2.7rem);
     align-items: flex-start;

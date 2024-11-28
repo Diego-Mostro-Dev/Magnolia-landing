@@ -35,11 +35,11 @@
 .lineas {
     width: 100%;
     height: 100%;
-    padding-right: 10px;
+    /* padding-right: 10px; */
 }
 
 .lineas img {
-    width: 100%;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
     padding-left: 10px;
@@ -50,30 +50,45 @@
         font-size: clamp(1.2rem, 1.3rem, 4rem);
         text-align: right;
     }
+
+    .trabajo .cruz {
+        justify-self: self-end;
+    }
+
+    .cruz img {
+        width: clamp(30px, 20px, 80px);
+
+    }
 }
 
 
 @media screen and (width >1024px) {
     .trabajo {
-        grid-template-columns: 20% 1fr 2fr;
+        grid-template-columns: 10% 1fr 1fr;
         justify-items: center;
+        padding: 20px 0px 20px 20px;
 
+    }
+
+    .trabajo .cruz {
+        justify-self: self-start;
     }
 
     .cruz img {
         width: clamp(30px, 40px, 80px);
+
     }
 
     .trabajo h1 {
-        font-size: clamp(1.2rem, 2rem, 4rem);
-        text-align: right;
+        font-size: clamp(1.2rem, 3rem, 2.1rem);
+        justify-self: self-start;
+        padding-left: 30px;
     }
 
     .lineas img {
-        width: 100%;
+        width: 90%;
         height: 100%;
         margin: 0 auto;
-        padding-left: 30px;
     }
 
 }

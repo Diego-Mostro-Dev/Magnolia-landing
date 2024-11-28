@@ -48,10 +48,6 @@ export default function Home() {
                         <img className="logo" height={50} width={50} src={Logo} alt="Logo" />
                     </div>
                     <div className="wrapper-idioma-botones">
-                        <section className="botones-nav">
-                            <button className="lorem1">Lorem ipsum</button>
-                            <button className="lorem2">Lorem ipsum</button>
-                        </section>
                         <section title="Idioma" className="botones-language">
                             <select id="language-select" onChange={(e) => cambiarIdioma(e.target.value)}>
                                 <option value="es">ES</option>

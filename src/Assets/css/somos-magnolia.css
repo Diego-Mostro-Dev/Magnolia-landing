@@ -50,10 +50,11 @@
     } */
 
     .magnolia h1 {
-        text-align: center;
+        text-align: left;
         font-size: clamp(0.9rem, 2.6vw, 2rem);
         width: 100%;
         height: auto;
+        margin-left: 20px;
     }
 
     .parentesis-somos {
