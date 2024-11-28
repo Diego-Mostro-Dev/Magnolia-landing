@@ -1,4 +1,3 @@
-// Home.js
 import React from 'react';
 import '../Assets/css/home.css';
 import Logo from '../Assets/statics/Logo.svg';
@@ -18,7 +17,7 @@ import { useModalContext } from '../ModalContext.js';
 import { useLanguageContext } from '../LanguageContext.js'; // Importar el contexto de idioma
 
 export default function Home() {
-    const { seccionesHome, modalActivo, abrirModal } = useModalContext();
+    const { seccionesHome, modalActivo, abrirModal, cerrarModal } = useModalContext();
     const { cambiarIdioma } = useLanguageContext(); // Obtener la función para cambiar idioma y las traducciones
 
     const tipoModal = (prop) => {
@@ -40,11 +39,19 @@ export default function Home() {
         }
     };
 
+    const handleClickOutside = (e) => {
+        // Verificar si el clic fue directamente en el contenedor, no en un hijo
+        if (e.target === e.currentTarget && modalActivo) {
+            console.log('Clic fuera del contenedor' + e.target);
+            cerrarModal();
+        }
+    };
+
     return (
         <>
-            <article className="home-grid">
-                <section className="navbar">
-                    <div>
+            <article className="home-grid" onClick={handleClickOutside}>
+                <section className="navbar" onClick={handleClickOutside} >
+                    <div onClick={handleClickOutside}>
                         <img className="logo" height={50} width={50} src={Logo} alt="Logo" />
                     </div>
                     <div className="wrapper-idioma-botones">
@@ -59,7 +66,7 @@ export default function Home() {
                 </section>
 
                 {/* Contenido principal */}
-                <section className={seccionesHome ? 'secciones-home' : 'hidden'}>
+                <section className={seccionesHome ? 'secciones-home' : 'hidden'} onClick={handleClickOutside}>
                     <div className="somos-magnolia-home" onClick={() => abrirModal('somosmagnolia')}>
                         <SomosMagnolia />
                     </div>
