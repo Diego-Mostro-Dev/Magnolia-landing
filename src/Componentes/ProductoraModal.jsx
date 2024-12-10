@@ -6,9 +6,10 @@ import { useLanguageContext } from '../LanguageContext';
 export default function ProductoraModal() {
     const { getTraduccion } = useLanguageContext();
     const { cerrarModal } = useModalContext();
-    const { titleModal } = getTraduccion('productora');
+    /* const { titleModal } = getTraduccion('productora'); */
     const { text } = getTraduccion('productora');
     const { buttonText } = getTraduccion('productora')
+    const { titleModal } = getTraduccion('productora');
     return (
         <div className='productora-Modal'>
             <button onClick={cerrarModal}>x</button>

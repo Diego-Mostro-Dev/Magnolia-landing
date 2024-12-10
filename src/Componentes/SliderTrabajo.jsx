@@ -2,7 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import DSC03595r from "../Assets/statics/FotosMangnolia/DSC03595r.webp";
+import Trabajo1 from "../Assets/statics/FotosMangnolia/Trabajo1.webp";
+import Trabajo2 from "../Assets/statics/FotosMangnolia/Trabajo2.webp";
+import Trabajo3 from "../Assets/statics/FotosMangnolia/Trabajo3.webp";
+import Trabajo4 from "../Assets/statics/FotosMangnolia/Trabajo4.webp";
+import Trabajo5 from "../Assets/statics/FotosMangnolia/Trabajo5.webp";
+
 
 function CenterMode() {
     const settings = {
@@ -21,42 +26,42 @@ function CenterMode() {
                 <Slider {...settings}>
                     <div>
                         <img
-                            src={DSC03595r}
+                            src={Trabajo1}
                             alt="Descripción de la imagen"
                         />
                     </div>
                     <div>
                         <img
-                            src={DSC03595r}
+                            src={Trabajo2}
                             alt="Descripción de la imagen"
                         />
                     </div>
                     <div>
                         <img
-                            src={DSC03595r}
+                            src={Trabajo3}
                             alt="Descripción de la imagen"
                         />
                     </div>
                     <div>
                         <img
-                            src={DSC03595r}
+                            src={Trabajo4}
                             alt="Descripción de la imagen"
                         />
                     </div>
                     <div>
                         <img
-                            src={DSC03595r}
+                            src={Trabajo5}
                             alt="Descripción de la imagen"
                         />
                     </div>
                 </Slider>
             </div>
             <section className="imagenes-trabajo">
-                <img height={100} width={50} src={DSC03595r} alt="" />
-                <img height={100} width={50} src={DSC03595r} alt="" />
-                <img height={100} width={50} src={DSC03595r} alt="" />
-                <img height={100} width={50} src={DSC03595r} alt="" />
-                <img height={100} width={50} src={DSC03595r} alt="" />
+                <img height={100} width={50} src={Trabajo1} alt="" />
+                <img height={100} width={50} src={Trabajo2} alt="" />
+                <img height={100} width={50} src={Trabajo3} alt="" />
+                <img height={100} width={50} src={Trabajo4} alt="" />
+                <img height={100} width={50} src={Trabajo5} alt="" />
             </section>
         </>
     );

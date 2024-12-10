@@ -1,11 +1,23 @@
 @font-face {
     font-family: 'NeueHaasDisplay';
     src: url('../Font/NeueHaasDisplayMediu.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: inherit;
+    font-style: inherit;
 }
 
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../Font/NeueHaasDisplayBold.ttf') format('truetype');
+    font-weight: inherit;
+    font-style: inherit;
+}
 
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../Font/NeueHaasDisplayRoman.ttf') format('truetype');
+    font-weight: inherit;
+    font-style: inherit;
+}
 
 * {
     margin: 0;
@@ -17,9 +29,10 @@
 .home-grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 1fr 0.1fr;
+    grid-template-rows: 0.4fr 1fr;
     height: 100vh;
     width: 100%;
+    overflow: hidden;
     justify-content: space-around;
     align-items: flex-end;
     justify-items: center;
@@ -32,7 +45,6 @@
         "secciones-home";
 }
 
-/* Logo y botones */
 .navbar {
     grid-area: navbar;
     display: flex;
@@ -101,9 +113,6 @@
     text-align: center;
 }
 
-
-
-
 /* Secciones del home */
 .secciones-home {
     grid-area: secciones-home;
@@ -113,7 +122,7 @@
     grid-template-rows: repeat(4, 25%);
     gap: 10px;
     max-width: 85vw;
-    height: 42vh;
+    height: 50vh;
     margin: 0 auto;
     align-items: center;
     margin-bottom: 20px;
@@ -129,18 +138,12 @@
     display: none;
 }
 
-.visible {
-    display: grid;
-}
-
-
 .secciones-home-modal {
     display: grid;
-    margin: 0 auto;
-    height: 80%;
+    height: 100%;
     width: 90%;
+    justify-self: center;
     align-items: center;
-    margin-bottom: 20px;
     border-radius: 15px;
 }
 
@@ -224,7 +227,7 @@
 
     .secciones-home-modal {
 
-        width: 65vw;
+        width: 90%;
 
     }
 

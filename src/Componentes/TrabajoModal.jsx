@@ -18,7 +18,7 @@ export default function TrabajoModal() {
     return (
         <div className='trabajo-Modal'>
             <button onClick={cerrarModal}>x</button>
-            <h1>{titleModal}</h1>
+            <h1 dangerouslySetInnerHTML={{ __html: titleModal }}></h1>
             <p>{text}</p>
             <hr className='linea-modal' />
             <Centermode></Centermode>

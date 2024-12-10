@@ -2,6 +2,8 @@ import React from 'react'
 import '../Assets/css/redes-modal.css'
 import { useModalContext } from '../ModalContext';
 import { useLanguageContext } from '../LanguageContext';
+import IconosRedes from './IconosRedes';
+
 
 export default function RedesModal() {
     const { getTraduccion } = useLanguageContext();
@@ -13,7 +15,7 @@ export default function RedesModal() {
             <button onClick={cerrarModal}>x</button>
             <h1>{titleModal}</h1>
             <p>{text}</p>
-            <div>Redes sociales iconos con link</div>
+            <IconosRedes></IconosRedes>
         </div>
     )
 }

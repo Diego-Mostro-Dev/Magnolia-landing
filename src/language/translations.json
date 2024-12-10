@@ -3,14 +3,14 @@
         "SomosMagnolia": {
             "title": "Somos Magnolia",
             "titleModal": "QUIÉNES SOMOS - MAGNOLIA | TALENTO SINGULAR",
-            "description": "Una página de inicio basada en React para mostrar una aplicación de landing page.",
-            "text": "Somos una agencia de casting que nace en la ciudad de Rosario con una fuerte apuesta a la proyección nacional. Nuestra pasión es descubrir lo que está escondido: el talento en los lugares menos pensados, las personas que merecen ser vistas. Apostamos a un proceso de selección artesanal, humano y amplio. Creemos que nuestro territorio está plagado de talento singular y estamos dispuestos a encontrarlo.",
+            "description": "Magnolia - Talento singular",
+            "text": "Somos una <strong>agencia de casting </strong>que nace en la ciudad de Rosario con una fuerte apuesta a la proyección nacional. Nuestra pasión es descubrir lo que está escondido: el talento en los lugares menos pensados, las personas que merecen ser vistas. Apostamos a un proceso de selección artesanal, humano y amplio. Creemos que nuestro territorio está plagado de talento singular y estamos dispuestos a encontrarlo.",
             "buttonText": ""
         },
         "contacto": {
             "title": "Contacto",
             "titleModal": "¿Qué necesitás saber?",
-            "description": "Formulario de contacto",
+            "description": "¿Qué necesitás saber?",
             "text": "Llená el formulario y nos pondremos en contacto con vos a la brevedad.",
             "buttonText": "Enviar",
             "textRedes": "También podés encontrarnos acá:",
@@ -22,31 +22,31 @@
         },
         "trabajos": {
             "title": "Trabajos",
-            "titleModal": "Publicidad, teatro, series y películas.",
-            "description": "Acá podés encontrar alguna de las producciones en las que trabajamos:",
+            "titleModal": "<strong>Publicidad, teatro, series y películas.</strong>",
+            "description": "Acá podés encontrar alguna de las producciones en las que trabajamos",
             "text": "Acá podés encontrar alguna de las producciones en las que trabajamos:",
             "buttonText": "Ver trabajos"
         },
         "productora": {
             "title": "Productoras",
-            "titleModal": "PARA PRODUCTORAS",
+            "titleModal": "Encontramos el talento que estás buscando para esa peli, serie, publicidad u obra que estás empezando. ",
             "description": "Para productoras",
-            "text": "Encontramos el talento que estás buscando para esa peli, serie, publicidad u obra que estás empezando. Contamos con más de X artistas en nuestra base de datos y además formamos una red de colaboración con otras castineras y agencias para encontrar el talento que necesitás.",
+            "text": "Contamos con más de X artistas en nuestra base de datos y además formamos una red de colaboración con otras castineras y agencias para encontrar el talento que necesitás.",
             "buttonText": "Hablemos de tu proyecto"
         },
         "actoresActrices": {
             "titleActors": "Actores /",
             "titleActresses": "Actrices",
-            "titleModal": "ACTORES Y ACTRICES",
+            "titleModal": "Actores, actrices, modelos, bailarines y performers.",
             "description": "Para actores/actrices",
-            "text": "Actores, actrices, modelos, bailarines y performers. Si estás buscando trabajo en producciones audiovisuales o publicitarias, teatrales, gráficas, sumate a nuestra base de datos.",
+            "text": "Si estás buscando trabajo en producciones audiovisuales o publicitarias, teatrales, gráficas, sumate a nuestra base de datos.",
             "buttonText": "¡Quiero sumar mi perfil!"
         },
         "redes": {
             "title": "Redes Sociales",
-            "titleModal": "NUESTRAS REDES SOCIALES",
+            "titleModal": "Seguinos en redes",
             "description": "Nuestras redes sociales",
-            "text": "Seguinos en redes y enterate de nuestras convocatorias, cursos y actividades",
+            "text": "y enterate de nuestras convocatorias, cursos y actividades",
             "buttonText": ""
         }
     },
@@ -54,14 +54,14 @@
         "SomosMagnolia": {
             "title": "We Are Magnolia",
             "titleModal": "WHO WE ARE - MAGNOLIA | UNIQUE TALENT",
-            "description": "A React-based homepage to showcase a landing page application.",
-            "text": "We are a casting agency born in the city of Rosario with a strong focus on national expansion. Our passion is discovering what is hidden: talent in the most unexpected places, people who deserve to be seen. We believe in a human, artisanal, and wide selection process. We are convinced that our territory is filled with unique talent, and we are ready to find it.",
+            "description": "WHO WE ARE - MAGNOLIA | UNIQUE TALENT",
+            "text": "We are a <strong>casting agency</strong> born in the city of Rosario with a strong focus on national expansion. Our passion is discovering what is hidden: talent in the most unexpected places, people who deserve to be seen. We believe in a human, artisanal, and wide selection process. We are convinced that our territory is filled with unique talent, and we are ready to find it.",
             "buttonText": ""
         },
         "contacto": {
             "title": "Contact",
             "titleModal": "What do you need to know?",
-            "description": "Contact form",
+            "description": "What do you need to know?",
             "text": "Fill out the form and we will contact you as soon as possible.",
             "buttonText": "Send",
             "textRedes": "You can also find us here:",
@@ -73,31 +73,31 @@
         },
         "trabajos": {
             "title": "Works",
-            "titleModal": "Advertising, theater, series and movies.",
+            "titleModal": "<strong>Advertising, theater, series and movies.</strong>",
             "description": "Here you can find some of the productions we work on:",
             "text": "Here you can find some of the productions we work on:",
             "buttonText": "View Works"
         },
         "productora": {
             "title": "Producers",
-            "titleModal": "FOR PRODUCERS",
+            "titleModal": "We find the talent you are looking for for that movie, series, advertisement or work you are starting.",
             "description": "For producers",
-            "text": "We find the talent you are looking for for that movie, series, advertisement or work you are starting. We have more than X artists in our database and we also form a collaboration network with other castineras and agencies to find the talent you need.",
+            "text": " We have more than X artists in our database and we also form a collaboration network with other castineras and agencies to find the talent you need.",
             "buttonText": "Let's talk about your project"
         },
         "actoresActrices": {
             "titleActors": "Actors /",
             "titleActresses": "Actresses",
-            "titleModal": "ACTORS & ACTRESSES",
+            "titleModal": "Actors, actresses, models, dancers and performers.",
             "description": "For actors/actresses",
-            "text": "Actors, actresses, models, dancers and performers. If you are looking for work in audiovisual or advertising, theatrical, graphic productions, join our database.",
+            "text": "If you are looking for work in audiovisual or advertising, theatrical, graphic productions, join our database.",
             "buttonText": "I want to add my profile!"
         },
         "redes": {
             "title": "Social Media",
-            "titleModal": "FOLLOW US ON SOCIAL MEDIA",
+            "titleModal": "Follow us on networks",
             "description": "Our social networks",
-            "text": "Follow us on networks and find out about our calls, courses and activities",
+            "text": "and find out about our calls, courses and activities",
             "buttonText": ""
         }
     },
@@ -106,7 +106,7 @@
             "title": "Nós Somos Magnolia",
             "titleModal": "QUEM SOMOS - MAGNOLIA | TALENTO ÚNICO",
             "description": "Uma página inicial baseada em React para exibir uma aplicação de landing page.",
-            "text": "Somos uma agência de casting nascida na cidade de Rosário, com um forte foco na expansão nacional. Nossa paixão é descobrir o que está escondido: talentos nos lugares menos esperados, pessoas que merecem ser vistas. Acreditamos em um processo de seleção humano, artesanal e abrangente. Estamos convencidos de que nosso território está repleto de talentos únicos, e estamos prontos para encontrá-los.",
+            "text": "Somos uma <strong>agência de casting</strong> nascida na cidade de Rosário, com um forte foco na expansão nacional. Nossa paixão é descobrir o que está escondido: talentos nos lugares menos esperados, pessoas que merecem ser vistas. Acreditamos em um processo de seleção humano, artesanal e abrangente. Estamos convencidos de que nosso território está repleto de talentos únicos, e estamos prontos para encontrá-los.",
             "buttonText": ""
         },
         "contacto": {
@@ -124,31 +124,31 @@
         },
         "trabajos": {
             "title": "Trabalhos",
-            "titleModal": "Publicidade, teatro, séries e filmes.",
+            "titleModal": "<strong>Publicidade, teatro, séries e filmes.</strong>",
             "description": "Aqui encontra algumas das produções em que trabalhamos:",
             "text": "Aqui encontra algumas das produções em que trabalhamos:",
             "buttonText": "Ver Trabalhos"
         },
         "productora": {
             "title": "Produtoras",
-            "titleModal": "PARA PRODUTORAS",
+            "titleModal": "Encontramos o talento que você procura para aquele filme, série, propaganda ou trabalho que você está iniciando.",
             "description": "Produtores",
-            "text": "Encontramos o talento que você procura para aquele filme, série, propaganda ou trabalho que você está iniciando. Temos mais de X artistas em nosso banco de dados e também formamos uma rede de colaboração com outras castineras e agências para encontrar o talento que você precisa.",
-            "buttonText": "Vamos conversar sobre seu projeto"
+            "text": "Temos mais de X artistas em nosso banco de dados e também formamos uma rede de colaboração com outras castineras e agências para encontrar o talento que você precisa.",
+            "buttonText": "Falemos sobre o seu projeto"
         },
         "actoresActrices": {
             "titleActors": "Atores /",
             "titleActresses": "Atrizes",
-            "titleModal": "ATORES E ATRIZES",
+            "titleModal": "Atores, atrizes, modelos, dançarinos e performers.",
             "description": "Para atores/atrizes",
-            "text": "Atores, atrizes, modelos, dançarinos e performers. Se procura trabalho em produções audiovisuais ou publicitárias, teatrais, gráficas, junte-se à nossa base de dados.",
+            "text": "Se procura trabalho em produções audiovisuais ou publicitárias, teatrais, gráficas, junte-se à nossa base de dados.",
             "buttonText": "Quero adicionar meu perfil!"
         },
         "redes": {
             "title": "Redes Sociais",
-            "titleModal": "NOSSAS REDES SOCIAIS",
+            "titleModal": "Siga-nos nas redes",
             "description": "Nossas redes sociais",
-            "text": "Siga-nos nas redes sociais e fique por dentro de nossas convocatórias, cursos e atividades.",
+            "text": "e fique por dentro de nossas convocatórias, cursos e atividades.",
             "buttonText": ""
         }
     }
