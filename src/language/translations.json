@@ -9,7 +9,7 @@
         },
         "contacto": {
             "title": "Contacto",
-            "titleModal": "¿Qué necesitás saber?",
+            "titleModal": "¿Qué <br/> necesitás saber?",
             "description": "¿Qué necesitás saber?",
             "text": "Llená el formulario y nos pondremos en contacto con vos a la brevedad.",
             "buttonText": "Enviar",

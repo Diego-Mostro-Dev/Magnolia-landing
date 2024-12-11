@@ -14,10 +14,9 @@ function CenterMode() {
         className: "center",
         centerMode: true,
         infinite: true,
-        centerPadding: "60px",
+        centerPadding: "40px",
         slidesToShow: 1,
-        speed: 200,
-
+        speed: 150,
     };
 
     return (

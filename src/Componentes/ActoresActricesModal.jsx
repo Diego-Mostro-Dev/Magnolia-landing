@@ -11,10 +11,12 @@ export default function ActoresActricesModal() {
     const { buttonText } = getTraduccion('actoresActrices')
     return (
         <div className='actores-actrices-modal'>
-            <button onClick={cerrarModal}>x</button>
+            <button className="cruz-modal-actores-actrices" onClick={cerrarModal}></button>
             <h1>{titleModal}</h1>
             <p>{text}</p>
-            <button className="actores-actrices-boton">{buttonText}</button>
+            <div className="wrapper-actores-actrices">
+                <button className="actores-actrices-boton">{buttonText}</button>
+            </div>
         </div>
     )
 }

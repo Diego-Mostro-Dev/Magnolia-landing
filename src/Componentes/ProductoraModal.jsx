@@ -12,7 +12,7 @@ export default function ProductoraModal() {
     const { titleModal } = getTraduccion('productora');
     return (
         <div className='productora-Modal'>
-            <button onClick={cerrarModal}>x</button>
+            <button onClick={cerrarModal}></button>
             <h1>{titleModal}</h1>
             <p>{text}</p>
             <button className="productora-boton">{buttonText}</button>

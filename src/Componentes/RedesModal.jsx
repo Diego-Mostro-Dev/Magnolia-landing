@@ -12,10 +12,10 @@ export default function RedesModal() {
     const { text } = getTraduccion('redes');
     return (
         <div className='redes-Modal'>
-            <button onClick={cerrarModal}>x</button>
+            <button onClick={cerrarModal}></button>
             <h1>{titleModal}</h1>
             <p>{text}</p>
             <IconosRedes></IconosRedes>
         </div>
     )
-}
+} 

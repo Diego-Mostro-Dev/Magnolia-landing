@@ -13,8 +13,8 @@ export default function ContactoModal() {
 
     return (
         <div className='contacto-Modal'>
-            <button onClick={cerrarModal}>x</button>
-            <h1>{titleModal}</h1>
+            <button onClick={cerrarModal}></button>
+            <h1 dangerouslySetInnerHTML={{ __html: titleModal }} ></h1>
             <p>{text}</p>
             <div></div>
             <h2>{textRedes}</h2>

@@ -4,29 +4,35 @@
     grid-template-rows: 10% 90%;
     justify-content: center;
     align-items: center;
-    background-color: #c7d8e4;
+    background-image: url(../statics/FondosMagnoliaMobile/SomosMagnolia_M.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 90%;
     border-radius: 15px;
     gap: 10px;
 }
 
 .somos-magnolia-modal button {
     justify-self: flex-end;
+    background-image: url(../statics/Iconos/CruzNegra.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: transparent;
-    color: rgb(0, 0, 0);
-    width: fit-content;
+    aspect-ratio: 2/3;
+    height: 100%;
     margin-right: 10px;
     margin-top: 10px;
-    font-size: clamp(2rem, 0.8vw, 0.8rem);
     border: none;
     padding: 0px 5px;
 }
 
 .somos-magnolia-modal p {
     text-align: left;
-    font-size: clamp(1rem, 2vw, 1.5rem);
-    width: 100%;
+    font-size: clamp(0.95rem, 2vw, 1.5rem);
+    width: 24ch;
     margin: 0;
-    padding: 0px 25px 40px 28px;
+    margin: 24px 25px 40px 28px;
 }

@@ -4,9 +4,12 @@
     grid-template-rows: 10% 30% 30% 1fr;
     justify-content: center;
     align-items: center;
-    background-color: #2e3192;
+    background-image: url(../statics/FondosMagnoliaMobile/RedesSociales.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 90%;
     border-radius: 15px;
     gap: 10px;
     padding-bottom: 10%;
@@ -14,12 +17,15 @@
 
 .redes-Modal button {
     justify-self: flex-end;
+    background-image: url(../statics/Iconos/CruzBlanca.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: transparent;
-    color: rgb(0, 0, 0);
-    width: fit-content;
-    margin-right: 10px;
-    margin-top: 10px;
-    font-size: clamp(2rem, 0.8vw, 0.8rem);
+    aspect-ratio: 2/3;
+    height: 100%;
+    margin-right: 3px;
+    margin-top: 23px;
     border: none;
     padding: 0px 5px;
 }

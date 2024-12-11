@@ -10,7 +10,7 @@ export default function SomosMagnoliaModal() {
 
     return (
         <div className='somos-magnolia-modal'>
-            <button onClick={cerrarModal}>x</button>
+            <button onClick={cerrarModal}></button>
             <p dangerouslySetInnerHTML={{ __html: text }}></p>
         </div>
     );
