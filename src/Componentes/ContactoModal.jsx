@@ -11,10 +11,15 @@ export default function ContactoModal() {
     const { text } = getTraduccion('contacto');
     const { textRedes } = getTraduccion('contacto');
 
+    const titleModalSinBr = titleModal.replace(/<br\s*\/?>/gi, ' ');
+
+
+
     return (
         <div className='contacto-Modal'>
             <button onClick={cerrarModal}></button>
-            <h1 dangerouslySetInnerHTML={{ __html: titleModal }} ></h1>
+            <h1 dangerouslySetInnerHTML={{ __html: titleModal }} className='contacto-Modal-h1-br' ></h1>
+            <h1 className='contacto-Modal-h1-sin-br' >{titleModalSinBr}</h1>
             <p>{text}</p>
             <div></div>
             <h2>{textRedes}</h2>

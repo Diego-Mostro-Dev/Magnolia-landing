@@ -4,7 +4,7 @@
             "title": "Somos Magnolia",
             "titleModal": "QUIÉNES SOMOS - MAGNOLIA | TALENTO SINGULAR",
             "description": "Magnolia - Talento singular",
-            "text": "Somos una <strong>agencia de casting </strong>que nace en la ciudad de Rosario con una fuerte apuesta a la proyección nacional. Nuestra pasión es descubrir lo que está escondido: el talento en los lugares menos pensados, las personas que merecen ser vistas. Apostamos a un proceso de selección artesanal, humano y amplio. Creemos que nuestro territorio está plagado de talento singular y estamos dispuestos a encontrarlo.",
+            "text": "Somos una <strong>agencia de casting </strong>que nace en la ciudad de Rosario con una fuerte apuesta a la proyección nacional.<br> Nuestra pasión es descubrir lo que está escondido: el talento en los lugares menos pensados, las personas que merecen ser vistas. <br> Apostamos a un proceso de selección artesanal, humano y amplio. Creemos que nuestro territorio está plagado de talento singular y estamos dispuestos a encontrarlo.",
             "buttonText": ""
         },
         "contacto": {
@@ -55,7 +55,7 @@
             "title": "We Are Magnolia",
             "titleModal": "WHO WE ARE - MAGNOLIA | UNIQUE TALENT",
             "description": "WHO WE ARE - MAGNOLIA | UNIQUE TALENT",
-            "text": "We are a <strong>casting agency</strong> born in the city of Rosario with a strong focus on national expansion. Our passion is discovering what is hidden: talent in the most unexpected places, people who deserve to be seen. We believe in a human, artisanal, and wide selection process. We are convinced that our territory is filled with unique talent, and we are ready to find it.",
+            "text": "We are a <strong>casting agency</strong> born in the city of Rosario with a strong focus on national expansion.<br>  Our passion is discovering what is hidden: talent in the most unexpected places, people who deserve to be seen.<br/> We believe in a human, artisanal, and wide selection process. We are convinced that our territory is filled with unique talent, and we are ready to find it.",
             "buttonText": ""
         },
         "contacto": {
@@ -106,7 +106,7 @@
             "title": "Nós Somos Magnolia",
             "titleModal": "QUEM SOMOS - MAGNOLIA | TALENTO ÚNICO",
             "description": "Uma página inicial baseada em React para exibir uma aplicação de landing page.",
-            "text": "Somos uma <strong>agência de casting</strong> nascida na cidade de Rosário, com um forte foco na expansão nacional. Nossa paixão é descobrir o que está escondido: talentos nos lugares menos esperados, pessoas que merecem ser vistas. Acreditamos em um processo de seleção humano, artesanal e abrangente. Estamos convencidos de que nosso território está repleto de talentos únicos, e estamos prontos para encontrá-los.",
+            "text": "Somos uma <strong>agência de casting</strong> nascida na cidade de Rosário, com um forte foco na expansão nacional.<br>  Nossa paixão é descobrir o que está escondido: talentos nos lugares menos esperados, pessoas que merecem ser vistas.<br>  Acreditamos em um processo de seleção humano, artesanal e abrangente. Estamos convencidos de que nosso território está repleto de talentos únicos, e estamos prontos para encontrá-los.",
             "buttonText": ""
         },
         "contacto": {

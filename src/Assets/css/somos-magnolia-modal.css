@@ -33,6 +33,63 @@
     text-align: left;
     font-size: clamp(0.95rem, 2vw, 1.5rem);
     width: 24ch;
-    margin: 0;
-    margin: 24px 25px 40px 28px;
+    margin: 0px 25px 40px 28px;
+}
+
+/* Media query para pantallas mobile de 375px a 425px */
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .somos-magnolia-modal p {
+        width: 30ch;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .somos-magnolia-modal p {
+        width: 33ch;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .somos-magnolia-modal {
+        background-image: url(../statics/FondosMagnoliaPc/Contacto_D.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 30px;
+    }
+
+    .somos-magnolia-modal p {
+        width: 37ch;
+        font-size: clamp(1rem, 2vw, 1.5rem);
+        margin-left: 65px;
+    }
+
+    .somos-magnolia-modal button {
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .somos-magnolia-modal {
+        background-image: url(../statics/FondosMagnoliaPc/Contacto_D.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 30px;
+    }
+
+    .somos-magnolia-modal p {
+        justify-self: center;
+        width: 43ch;
+        font-size: clamp(1rem, 2vw, 1.5rem);
+        margin-left: 0;
+    }
+
+    .somos-magnolia-modal button {
+        margin-right: 15px;
+        margin-top: 15px;
+    }
 }

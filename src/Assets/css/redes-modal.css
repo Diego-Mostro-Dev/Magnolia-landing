@@ -24,7 +24,7 @@
     background-color: transparent;
     aspect-ratio: 2/3;
     height: 100%;
-    margin-right: 3px;
+    margin-right: 16px;
     margin-top: 23px;
     border: none;
     padding: 0px 5px;
@@ -40,8 +40,9 @@
 }
 
 .redes-Modal p {
+    align-self: flex-start;
     text-align: left;
-    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
     width: 22ch;
     color: white;
     margin: 0;

@@ -1,8 +1,8 @@
 .iconos-redes-redes {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 25px;
 }
 
 .iconos-redes-redes a {

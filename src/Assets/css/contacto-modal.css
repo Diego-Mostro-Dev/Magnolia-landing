@@ -26,8 +26,8 @@
     background-color: transparent;
     aspect-ratio: 2/3;
     height: 100%;
-    margin-right: 10px;
-    margin-top: 10px;
+    margin-right: 16px;
+    margin-top: 16px;
     border: none;
     padding: 0px 5px;
 }
@@ -41,7 +41,7 @@
     padding-bottom: 26px;
 }
 
-.contacto-Modal h1 {
+.contacto-Modal-h1-br {
     text-align: left;
     font-size: clamp(2rem, 2vw, 1.5rem);
     width: 100%;
@@ -49,6 +49,11 @@
     padding-left: 30px;
     font-weight: bold;
 }
+
+.contacto-Modal-h1-sin-br {
+    display: none;
+}
+
 
 .contacto-Modal h2 {
     text-align: center;
@@ -60,4 +65,70 @@
 
 .iconos-contacto-redes-modal {
     padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .contacto-Modal {
+        background-image: url(../statics/FondosMagnoliaPc/Contacto_D.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .contacto-Modal-h1-br {
+        display: none;
+    }
+
+    .contacto-Modal-h1-sin-br {
+        display: flex;
+        text-align: left;
+        font-size: clamp(2rem, 2vw, 1.5rem);
+        width: 100%;
+        height: auto;
+        padding-left: 50px;
+        font-weight: bold;
+    }
+
+    .contacto-Modal p {
+        padding-left: 50px;
+        justify-self: flex-start;
+        padding-bottom: 0px;
+        width: 100%;
+        font-size: clamp(1.2rem, 2vw, 1.5rem);
+    }
+
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .contacto-Modal {
+        background-image: url(../statics/FondosMagnoliaPc/Contacto_D.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .contacto-Modal-h1-br {
+        display: none;
+    }
+
+    .contacto-Modal-h1-sin-br {
+        display: flex;
+        text-align: left;
+        font-size: clamp(2rem, 2vw, 1.5rem);
+        width: 100%;
+        height: auto;
+        padding-left: 50px;
+        font-weight: bold;
+    }
+
+    .contacto-Modal p {
+        padding-left: 50px;
+        justify-self: flex-start;
+        padding-bottom: 0px;
+        width: 100%;
+        font-size: clamp(1.2rem, 2vw, 1.5rem);
+    }
 }
