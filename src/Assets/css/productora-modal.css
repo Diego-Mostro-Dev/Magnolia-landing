@@ -68,6 +68,16 @@
     padding-left: 20px;
 }
 
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .productora-Modal p {
+        width: 34ch;
+    }
+
+    .productora-Modal h1 {
+        width: 23ch;
+    }
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .productora-Modal {
@@ -76,6 +86,7 @@
         background-position: center;
         background-repeat: no-repeat;
         border-radius: 30px;
+        gap: 5px;
     }
 
     .productora-boton {
@@ -85,7 +96,7 @@
 
     .productora-Modal h1 {
         padding-left: 50px;
-        width: 40ch;
+        width: 34ch;
     }
 
     .productora-Modal p {
@@ -102,21 +113,26 @@
         background-position: center;
         background-repeat: no-repeat;
         border-radius: 30px;
+        gap: 5px;
     }
 
     .productora-boton {
         justify-self: left;
-        margin-left: 50px;
+        margin-left: 60px;
+        font-size: clamp(1.2rem, 4vw, 1.8rem);
     }
 
     .productora-Modal h1 {
         padding-left: 60px;
-        width: 35ch;
+        width: 34ch;
+        font-size: 1.8rem;
     }
 
     .productora-Modal p {
         padding-left: 60px;
-        width: 40ch;
+        width: 48ch;
         padding-top: 0px;
+        font-size: 1.2rem;
     }
+
 }

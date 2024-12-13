@@ -11,7 +11,7 @@
     width: 100%;
     justify-self: center;
     height: 90%;
-    border-radius: 15px;
+    border-radius: 30px;
     overflow: hidden;
 }
 
@@ -116,21 +116,23 @@
 
 @media screen and (width >425px) {
     .slider-container {
-        width: 57%;
+        width: 70%;
         height: auto;
     }
 
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
     .trabajo-Modal {
         grid-template-rows: 10% 10% 10% 1% 69%;
-        background-image: url(../statics/FondosMagnoliaPc/Trabajos_D.webp);
-        background-size: calc(130%);
+        /* background-image: url(../statics/FondosMagnoliaPc/Contacto_D.webp);
+        background-size: cover;
         background-position: top;
-        background-repeat: no-repeat;
-        height: 100%;
+        background-repeat: no-repeat; */
+        background-image: none;
+        background-color: #fcbf02;
+        padding-left: 30px;
     }
 
     .linea-modal {
@@ -138,8 +140,8 @@
         border: none;
         background-color: #000000;
         height: 1px;
-        width: 80%;
-        margin-left: 35px;
+        width: 90%;
+        margin-left: 15px;
     }
 
 
@@ -152,28 +154,31 @@
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: 1fr;
         justify-content: center;
-        margin-left: 4%;
         align-items: center;
         align-content: center;
-        width: 90%;
+        width: 95%;
         gap: 20px;
         height: auto;
-        max-height: 90%;
+        padding: 0 10px;
     }
 
     .imagenes-trabajo img {
-        width: 100%;
+        justify-self: center;
+        align-self: center;
+        width: 95%;
         height: auto;
         object-fit: contain;
-        border: 4px solid #ffffff;
+        border: 1px solid #ffffff;
         border-radius: 5px;
+        background-color: #ffffff;
     }
 
 
     .trabajo-Modal p {
         justify-self: flex-start;
-        font-size: clamp(1rem, 2vw, 1.5rem);
+        font-size: 1.1rem;
         width: 50ch;
+        margin-left: 14px;
     }
 
     .trabajo-Modal button {
@@ -183,5 +188,23 @@
 
     .trabajo-Modal h1 {
         width: 35ch;
+        margin-left: 14px;
     }
 }
+
+/* @media screen and (min-width: 1440px) {
+
+    .imagenes-trabajo {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 80%;
+        background-color: red;
+        gap: 20px;
+        height: auto;
+        padding: 0 10px;
+    }
+} */
