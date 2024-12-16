@@ -15,7 +15,9 @@ export default function RedesModal() {
             <button onClick={cerrarModal}></button>
             <h1>{titleModal}</h1>
             <p>{text}</p>
-            <IconosRedes></IconosRedes>
+            <div className='iconos-contacto-redes-modal'>
+                <IconosRedes></IconosRedes>
+            </div>
         </div>
     )
 } 

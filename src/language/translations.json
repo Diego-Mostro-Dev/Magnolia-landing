@@ -134,7 +134,7 @@
             "titleModal": "Encontramos o talento que você procura para aquele filme, série, propaganda ou trabalho que você está iniciando.",
             "description": "Produtores",
             "text": "Temos mais de X artistas em nosso banco de dados e também formamos uma rede de colaboração com outras castineras e agências para encontrar o talento que você precisa.",
-            "buttonText": "Falemos sobre o seu projeto"
+            "buttonText": "Vamos falar do seu projeto"
         },
         "actoresActrices": {
             "titleActors": "Atores /",
@@ -142,7 +142,7 @@
             "titleModal": "Atores, atrizes, modelos, dançarinos e performers.",
             "description": "Para atores/atrizes",
             "text": "Se procura trabalho em produções audiovisuais ou publicitárias, teatrais, gráficas, junte-se à nossa base de dados.",
-            "buttonText": "Quero adicionar meu perfil!"
+            "buttonText": "Adicionar meu perfil!"
         },
         "redes": {
             "title": "Redes Sociais",

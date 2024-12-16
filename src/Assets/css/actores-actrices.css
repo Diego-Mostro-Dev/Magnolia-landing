@@ -6,5 +6,6 @@
     color: #fcbf02;
     font-size: clamp(1rem, 2.5vw, 2.7rem);
     align-items: flex-start;
+    font-weight: bold;
     margin: 10px 0 0 10px;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import '../Assets/css/contacto-modal.css'
 import { useModalContext } from '../ModalContext';
 import { useLanguageContext } from '../LanguageContext';
-import IconosRedes from './IconosRedes';
+import IconosContacto from './IconosContacto';
 
 export default function ContactoModal() {
     const { cerrarModal } = useModalContext();
@@ -23,8 +23,8 @@ export default function ContactoModal() {
             <p>{text}</p>
             <div></div>
             <h2>{textRedes}</h2>
-            <div className='iconos-contacto-redes-modal'>
-                <IconosRedes></IconosRedes>
+            <div className='iconos-contacto-contacto-modal'>
+                <IconosContacto></IconosContacto>
             </div>
         </div>
     )

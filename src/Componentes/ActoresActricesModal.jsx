@@ -15,7 +15,7 @@ export default function ActoresActricesModal() {
             <h1>{titleModal}</h1>
             <p>{text}</p>
             <div className="wrapper-actores-actrices">
-                <button className="actores-actrices-boton">{buttonText}</button>
+                <button className="actores-actrices-boton"><a target='_blank' rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSeRMp9O2s7_DGOJF6qkVsglVAvnF2Pue62v4buPQHKJdKAmug/viewform" className="formulario-actores-actrices">{buttonText}</a></button>
             </div>
         </div>
     )

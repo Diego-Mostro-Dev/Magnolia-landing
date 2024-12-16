@@ -119,9 +119,9 @@
         width: 70%;
         height: auto;
     }
-
-
 }
+
+
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
     .trabajo-Modal {
@@ -133,6 +133,11 @@
         background-image: none;
         background-color: #fcbf02;
         padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .trabajo-Modal:first-child {
+        padding-right: 0px;
     }
 
     .linea-modal {
@@ -140,7 +145,7 @@
         border: none;
         background-color: #000000;
         height: 1px;
-        width: 90%;
+        width: 87%;
         margin-left: 15px;
     }
 
@@ -182,8 +187,8 @@
     }
 
     .trabajo-Modal button {
-        margin-right: 10px;
-        margin-top: 10px;
+        margin-right: 15px;
+        margin-top: 15px;
     }
 
     .trabajo-Modal h1 {
@@ -191,20 +196,3 @@
         margin-left: 14px;
     }
 }
-
-/* @media screen and (min-width: 1440px) {
-
-    .imagenes-trabajo {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 1fr;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        width: 80%;
-        background-color: red;
-        gap: 20px;
-        height: auto;
-        padding: 0 10px;
-    }
-} */

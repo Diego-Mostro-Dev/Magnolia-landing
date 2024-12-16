@@ -85,7 +85,7 @@
         justify-self: center;
         width: 43ch;
         font-size: clamp(1rem, 2vw, 1.5rem);
-        margin-left: 0;
+        margin: 0px 25px 40px 0px;
     }
 
     .somos-magnolia-modal button {

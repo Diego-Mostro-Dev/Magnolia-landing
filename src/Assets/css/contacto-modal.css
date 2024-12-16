@@ -37,7 +37,7 @@
     font-size: clamp(0.9rem, 2vw, 1.5rem);
     width: 22ch;
     margin: 0;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-bottom: 26px;
 }
 
@@ -46,7 +46,7 @@
     font-size: clamp(2rem, 2vw, 1.5rem);
     width: 100%;
     height: auto;
-    padding-left: 30px;
+    padding-left: 20px;
     font-weight: bold;
 }
 

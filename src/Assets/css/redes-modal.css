@@ -48,3 +48,67 @@
     margin: 0;
     padding-left: 25px;
 }
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .redes-Modal h1 {
+        width: 15ch;
+    }
+
+    .redes-Modal p {
+        width: 30ch;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .redes-Modal {
+        background-image: url(../statics/FondosMagnoliaMobile/RedesSociales.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 30px;
+        gap: 0;
+        padding: 20px;
+    }
+
+    .redes-Modal h1 {
+        width: 25ch;
+        padding-left: 12%;
+    }
+
+    .redes-Modal p {
+        width: 40ch;
+        padding-left: 12%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .redes-Modal {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 20% 20% 50%;
+        border-radius: 30px;
+        padding: 20px 10px;
+        gap: 0;
+        overflow: hidden;
+        justify-content: flex-start;
+    }
+
+    .redes-Modal h1 {
+        width: 25ch;
+        padding-left: 15%;
+        font-size: 2.5rem
+    }
+
+    .redes-Modal p {
+        width: 40ch;
+        padding-left: 15%;
+        margin-bottom: 10px;
+    }
+
+
+    .redes-Modal:last-child img {
+        width: 50px;
+        height: 50px;
+    }
+
+}
