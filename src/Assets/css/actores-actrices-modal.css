@@ -125,7 +125,7 @@
     }
 
     .actores-actrices-modal p {
-        width: 55ch;
+        width: 52ch;
         font-size: clamp(1rem, 2.5vw, 1.3rem);
         padding-left: 50px;
     }
