@@ -61,7 +61,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .redes-Modal {
-        background-image: url(../statics/FondosMagnoliaMobile/RedesSociales.webp);
+        background-image: url(../statics/FondosMagnoliaPc/RedesSociales.webp);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -86,6 +86,10 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 10% 20% 20% 50%;
+        background-image: url(../statics/FondosMagnoliaPc/RedesSociales.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         border-radius: 30px;
         padding: 20px 10px;
         gap: 0;

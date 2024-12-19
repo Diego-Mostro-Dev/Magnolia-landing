@@ -126,12 +126,10 @@
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
     .trabajo-Modal {
         grid-template-rows: 10% 10% 10% 1% 69%;
-        /* background-image: url(../statics/FondosMagnoliaPc/Contacto_D.webp);
+        background-image: url(../statics/FondosMagnoliaPc/Trabajos_D.webp);
         background-size: cover;
         background-position: top;
-        background-repeat: no-repeat; */
-        background-image: none;
-        background-color: #fcbf02;
+        background-repeat: no-repeat;
         padding-left: 30px;
         padding-right: 30px;
     }
