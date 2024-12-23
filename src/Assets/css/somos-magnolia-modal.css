@@ -22,9 +22,9 @@
     background-repeat: no-repeat;
     background-color: transparent;
     aspect-ratio: 2/3;
-    height: 100%;
-    margin-right: 10px;
-    margin-top: 10px;
+    height: 90%;
+    margin-right: 15px;
+    margin-top: 15px;
     border: none;
     padding: 0px 5px;
 }
@@ -52,7 +52,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .somos-magnolia-modal {
-        background-image: url(../statics/FondosMagnoliaPc/Contacto_D.webp);
+        background-image: url(../statics/FondosMagnoliaPc/SomosMagnolia_D.webp);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

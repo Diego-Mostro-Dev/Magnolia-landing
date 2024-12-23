@@ -11,7 +11,9 @@
             "title": "Contacto",
             "titleModal": "¿Qué <br/> necesitás saber?",
             "description": "¿Qué necesitás saber?",
-            "text": "Llená el formulario y nos pondremos en contacto con vos a la brevedad.",
+            "textContact1": "Llená el",
+            "textContact2": "formulario",
+            "textContact3": "y nos pondremos en contacto con vos a la brevedad.",
             "buttonText": "Enviar",
             "textRedes": "También podés encontrarnos acá:",
             "form": {
@@ -62,7 +64,9 @@
             "title": "Contact",
             "titleModal": "What do you need to know?",
             "description": "What do you need to know?",
-            "text": "Fill out the form and we will contact you as soon as possible.",
+            "textContact1": "Fill out the",
+            "textContact2": "form",
+            "textContact3": "and we will contact you as soon as possible.",
             "buttonText": "Send",
             "textRedes": "You can also find us here:",
             "form": {
@@ -113,7 +117,9 @@
             "title": "Contato",
             "titleModal": "O que você precisa saber?",
             "description": "Formulário de contato",
-            "text": "Preencha o formulário e entraremos em contato o mais breve possível.",
+            "textContact1": "Preencha o",
+            "textContact2": "formulário",
+            "textContact3": "e entraremos em contato o mais breve possível.",
             "buttonText": "Enviar",
             "textRedes": "Você também pode nos encontrar aqui:",
             "form": {

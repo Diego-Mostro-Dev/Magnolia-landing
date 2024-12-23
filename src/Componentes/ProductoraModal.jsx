@@ -15,7 +15,7 @@ export default function ProductoraModal() {
             <button onClick={cerrarModal}></button>
             <h1>{titleModal}</h1>
             <p>{text}</p>
-            <button className="productora-boton">{buttonText}</button>
+            <button className="productora-boton"><a target='_blank' rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSeRMp9O2s7_DGOJF6qkVsglVAvnF2Pue62v4buPQHKJdKAmug/viewform">{buttonText}</a></button>
         </div>
     )
 }
