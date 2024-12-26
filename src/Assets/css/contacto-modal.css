@@ -24,7 +24,7 @@
     background-repeat: no-repeat;
     background-color: transparent;
     aspect-ratio: 2/3;
-    height: 90%;
+    height: 70%;
     margin-right: 16px;
     margin-top: 16px;
     border: none;
@@ -79,6 +79,14 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 12% 15% 20% 20% 10%;
+        gap: 0px;
+    }
+
+    .contacto-Modal button {
+        height: 80%;
     }
 
     .contacto-Modal-h1-br {
@@ -92,6 +100,7 @@
         width: 100%;
         height: auto;
         padding-left: 50px;
+        margin-bottom: 20px;
         font-weight: bold;
     }
 
@@ -117,6 +126,14 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 15% 20% 20% 10%;
+        gap: 0px;
+    }
+
+    .contacto-Modal button {
+        height: 90%;
     }
 
     .contacto-Modal-h1-br {
@@ -136,8 +153,8 @@
     .contacto-Modal p {
         padding-left: 50px;
         justify-self: flex-start;
-        padding-bottom: 0px;
-        width: 100%;
+        padding-top: 20px;
+        width: 50ch;
         font-size: clamp(1.2rem, 2vw, 1.5rem);
     }
 }

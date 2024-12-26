@@ -1,6 +1,6 @@
 .trabajo {
     display: grid;
-    grid-template-columns: 20% 30% 50%;
+    grid-template-columns: 30% 1fr;
     grid-template-rows: 1fr;
     justify-content: space-around;
     background-color: #fcbf02;
@@ -9,13 +9,13 @@
     height: 100%;
     gap: 5px;
     align-items: center;
-    justify-items: center;
+    justify-items: stretch;
     padding: 10px;
 }
 
 .trabajo h1 {
     text-align: left;
-    font-size: clamp(0.95rem, 2vw, 4rem);
+    font-size: clamp(1.2rem, 2vw, 4rem);
     height: auto;
 }
 
@@ -27,15 +27,14 @@
 }
 
 .cruz img {
-    width: clamp(20px, 40%, 80px);
+    width: clamp(22px, 40%, 80px);
     height: auto;
     object-fit: cover;
 }
 
-.lineas {
+/* .lineas {
     width: 100%;
     height: 100%;
-    /* padding-right: 10px; */
 }
 
 .lineas img {
@@ -43,16 +42,21 @@
     height: 100%;
     margin: 0 auto;
     padding-left: 10px;
-}
+} */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .trabajo {
+        justify-items: center;
+        padding: 27px;
+    }
+
     .trabajo h1 {
-        font-size: clamp(1.2rem, 1.3rem, 4rem);
-        text-align: right;
+        font-size: clamp(1.6rem, 1.3rem, 4rem);
+        text-align: left;
     }
 
     .trabajo .cruz {
-        justify-self: self-end;
+        justify-self: center;
     }
 
     .cruz img {
@@ -64,15 +68,15 @@
 
 @media screen and (width >1024px) {
     .trabajo {
-        grid-template-columns: 10% 1fr 1fr;
+        grid-template-columns: 30% 1fr;
         justify-items: center;
-        padding: 20px 0px 20px 20px;
+        padding: 28px;
 
     }
 
-    .trabajo .cruz {
+    /* .trabajo .cruz {
         justify-self: self-start;
-    }
+    } */
 
     .cruz img {
         width: clamp(30px, 40px, 80px);
@@ -80,15 +84,15 @@
     }
 
     .trabajo h1 {
-        font-size: clamp(1.2rem, 3rem, 2.1rem);
-        justify-self: self-start;
-        padding-left: 30px;
+        font-size: clamp(2.1rem, 3rem, 2.2rem);
+        justify-self: left;
+        /* padding-left: 30px; */
     }
 
-    .lineas img {
+    /*  .lineas img {
         width: 90%;
         height: 100%;
         margin: 0 auto;
-    }
+    } */
 
 }

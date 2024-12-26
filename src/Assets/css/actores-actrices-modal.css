@@ -93,6 +93,9 @@
         background-position: center;
         background-repeat: no-repeat;
         padding-bottom: 38px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 29% 25% 1fr;
 
     }
 
@@ -115,6 +118,9 @@
         background-position: center;
         background-repeat: no-repeat;
         padding-bottom: 38px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 30% 25% 1fr;
 
     }
 
