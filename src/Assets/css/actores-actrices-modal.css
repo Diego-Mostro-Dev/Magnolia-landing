@@ -72,6 +72,10 @@
 }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
+    .actores-actrices-modal .cruz-modal-actores-actrices {
+        height: 100%;
+    }
+
     .actores-actrices-modal p {
         font-size: clamp(1rem, 2vw, 1.5rem);
         padding-left: 40px;
@@ -86,6 +90,9 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .actores-actrices-modal .cruz-modal-actores-actrices {
+        height: 100%;
+    }
 
     .actores-actrices-modal {
         background-image: url(../statics/FondosMagnoliaPc/ActoresyActrices_D.webp);
@@ -112,6 +119,10 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 2550px) {
+    .actores-actrices-modal .cruz-modal-actores-actrices {
+        height: 100%;
+    }
+
     .actores-actrices-modal {
         background-image: url(../statics/FondosMagnoliaPc/ActoresyActrices_D.webp);
         background-size: cover;
