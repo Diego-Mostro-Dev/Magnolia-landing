@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Assets/css/trabajo.css'
 /* import LineasTrabajo from '../Assets/statics/Lineas trabajo.svg'; */
-import CruzTrabajo from '../Assets/statics/Cruz trabajo.svg';
+import CruzTrabajo from '../Assets/statics/Cruz-trabajo.svg';
 import { useLanguageContext } from '../LanguageContext';
 
 export default function Trabajo() {

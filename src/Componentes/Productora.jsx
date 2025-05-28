@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Assets/css/productora.css'
-import ParentesisProductora from '../Assets/statics/Parantésis-productora.svg';
+import ParentesisProductora from '../Assets/statics/Parantesis-productora.svg';
 import { useLanguageContext } from '../LanguageContext';
 
 export default function Productora() {

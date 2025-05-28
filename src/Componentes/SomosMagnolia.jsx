@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Assets/css/somos-magnolia.css";
-import ParentesisSomos from '../Assets/statics/Parantésis-somos.svg';
+import ParentesisSomos from '../Assets/statics/Parantesis-somos.svg';
 import { useLanguageContext } from '../LanguageContext'; // Importa el contexto de idioma
 
 export default function SomosMagnolia() {

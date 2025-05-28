@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Assets/css/contacto.css'
-import FlechaContacto from '../Assets/statics/Flecha contacto.svg';
+import FlechaContacto from '../Assets/statics/Flecha-contacto.svg';
 import { useLanguageContext } from '../LanguageContext';
 
 export default function Contacto() {
