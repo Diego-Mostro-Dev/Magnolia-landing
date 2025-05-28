@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Assets/css/somos-magnolia.css";
-import ParentesisSomos from '../Assets/statics/Parantésis somos.svg';
+import ParentesisSomos from '../Assets/statics/Parantésis-somos.svg';
 import { useLanguageContext } from '../LanguageContext'; // Importa el contexto de idioma
 
 export default function SomosMagnolia() {
@@ -15,7 +15,7 @@ export default function SomosMagnolia() {
             <div title={description} className="magnolia">
                 <h1 >{title}</h1>
                 <div className="parentesis-somos">
-                    <img height={50} width={50} src={ParentesisSomos} alt="Paréntesis Somos" className="parentesis-somos" />
+                    <img height={50} loading='lazy' width={50} src={ParentesisSomos} alt="Paréntesis Somos" className="parentesis-somos" />
                 </div>
             </div>
         </>

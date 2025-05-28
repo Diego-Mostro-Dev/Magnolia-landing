@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Assets/css/productora.css'
-import ParentesisProductora from '../Assets/statics/Parantésis productora.svg';
+import ParentesisProductora from '../Assets/statics/Parantésis-productora.svg';
 import { useLanguageContext } from '../LanguageContext';
 
 export default function Productora() {
@@ -10,7 +10,7 @@ export default function Productora() {
     return (
         <>
             <div title={description} className="productora" >
-                <div className="parentesis-productora"><img height={50} width={50} src={ParentesisProductora} alt="" /></div>
+                <div className="parentesis-productora"><img loading='lazy' height={50} width={50} src={ParentesisProductora} alt="" /></div>
                 <h1>{title}</h1>
             </div>
         </>

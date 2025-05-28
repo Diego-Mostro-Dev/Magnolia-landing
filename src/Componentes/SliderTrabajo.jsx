@@ -27,40 +27,45 @@ function CenterMode() {
                         <img
                             src={Trabajo1}
                             alt="Descripción de la imagen"
+                            loading='lazy'
                         />
                     </div>
                     <div>
                         <img
                             src={Trabajo2}
                             alt="Descripción de la imagen"
+                            loading='lazy'
                         />
                     </div>
                     <div>
                         <img
                             src={Trabajo3}
                             alt="Descripción de la imagen"
+                            loading='lazy'
                         />
                     </div>
                     <div>
                         <img
                             src={Trabajo4}
                             alt="Descripción de la imagen"
+                            loading='lazy'
                         />
                     </div>
                     <div>
                         <img
                             src={Trabajo5}
                             alt="Descripción de la imagen"
+                            loading='lazy'
                         />
                     </div>
                 </Slider>
             </div>
             <section className="imagenes-trabajo">
-                <img height={100} width={50} src={Trabajo1} alt="" />
-                <img height={100} width={50} src={Trabajo2} alt="" />
-                <img height={100} width={50} src={Trabajo3} alt="" />
-                <img height={100} width={50} src={Trabajo4} alt="" />
-                <img height={100} width={50} src={Trabajo5} alt="" />
+                <img loading='lazy' height={100} width={50} src={Trabajo1} alt="" />
+                <img loading='lazy' height={100} width={50} src={Trabajo2} alt="" />
+                <img loading='lazy' height={100} width={50} src={Trabajo3} alt="" />
+                <img loading='lazy' height={100} width={50} src={Trabajo4} alt="" />
+                <img loading='lazy' height={100} width={50} src={Trabajo5} alt="" />
             </section>
         </>
     );

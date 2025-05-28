@@ -11,7 +11,7 @@ export default function Contacto() {
         <>
             <div title={description} className="contacto">
                 <h1>{title}</h1>
-                <img height={50} width={50} src={FlechaContacto} alt="flecha de contacto" />
+                <img loading='lazy' height={50} width={50} src={FlechaContacto} alt="flecha de contacto" />
             </div>
         </>
     )
