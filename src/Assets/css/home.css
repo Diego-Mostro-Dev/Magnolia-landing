@@ -26,6 +26,15 @@
     font-family: 'NeueHaasDisplay', sans-serif;
 }
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+
 .home-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -36,7 +45,7 @@
     justify-content: space-around;
     align-items: flex-end;
     justify-items: center;
-    background-image: url(../statics/DSC03669.webp);
+    /* background-image: url(../statics/FotosFondosMagnoliaMobileNuevos/HomeMobileVertical-1.webp); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -44,6 +53,8 @@
         "navbar"
         "secciones-home";
 }
+
+
 
 .navbar {
     grid-area: navbar;
@@ -203,7 +214,7 @@
     .home-grid {
         align-items: center;
         grid-template-rows: 0.4fr 2fr;
-        background-image: url(../statics/DSC03758.webp);
+        /* background-image: url(../statics/DSC03758.webp); */
         padding-bottom: 20px;
         padding-top: 2rem;
         gap: 10px;
@@ -229,8 +240,9 @@
     }
 
     .hidden {
-        display: none;
+        display: none !important;
     }
+
 
 
     .somos-magnolia-home {
