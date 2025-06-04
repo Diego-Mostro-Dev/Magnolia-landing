@@ -105,7 +105,7 @@ export default function Home() {
             };
         };
 
-        const interval = setInterval(cambiarFondo, 5000);
+        const interval = setInterval(cambiarFondo, 6000);
 
         return () => {
             isMounted = false;
