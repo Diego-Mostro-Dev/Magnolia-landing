@@ -20,7 +20,7 @@ function modalReducer(state, action) {
                 modalActivo: action.payload,
             };
         case CERRAR_MODAL:
-            return initialState; // Regresamos al estado inicial para cerrar el modal
+            return initialState; // Estado inicial para cerrar el modal
         default:
             return state;
     }
