@@ -13,7 +13,6 @@ export default function Trabajo() {
             <div title={description} className="trabajo">
                 <div className='cruz'><img loading='lazy' height={50} width={50} src={CruzTrabajo} alt="Imagen Cruz-trabajo" /></div>
                 <h1>{title}</h1>
-                {/* <div className='lineas'><img height={50} width={50} src={LineasTrabajo} alt="Imagen Lineas trabajo" /></div> */}
             </div>
         </>
 
